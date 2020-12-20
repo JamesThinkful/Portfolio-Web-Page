@@ -1,36 +1,41 @@
-main, article, footer { 
-  color:white;
-  font-family: Arial;
-
-}
-
-
-
-main {
-  text-align:center;
-}
-
-.round {
-  border-radius:10px;
-}
-
 html {
-  background: rgb(66, 65, 65); 
+  font-family: arial;
+  font-size: 20px;
+  text-align:left;
 }
 
-.header {
-  width: 100%; 
-  height: 80px;
-  display:block;
-  background-color:#101010;
+header {
+  background-color: gray;
 }
 
-footer{
-  margin:70px;
-  padding:35px;
-  font-size:12px;
+/* used a simple color to make the title pop*/
+
+footer {
+  background-color:darkgray;
+  margin: 100px 0 0 0; 
+  padding: 20px 0;
 }
 
-btn {
-  color: white; 
+/* used this to allow viewer to see this is where the page ends*/ 
+
+h1{
+  color: black;
+  padding:60px 0 20px 20px;
+  margin:0;
+  height:0;
+}
+
+/* used a black to ensure contrast error doesn't happen*/
+
+
+link:hover{
+  color:red;
+}
+
+link:active{
+  color:green;
+}
+
+link:visisted{
+  color:purple;
 }
